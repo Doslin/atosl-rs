@@ -63,7 +63,7 @@ fn main() {
     x.split("\n");
     loop {
         // 打印提示信息
-        write!(stdout, "user：").expect("Failed to write to stdout");
+        write!(stdout, "").expect("Failed to write to stdout");
         stdout.flush().expect("Failed to flush stdout");
         // 读取用户输入的内容
         let mut input = String::new();
